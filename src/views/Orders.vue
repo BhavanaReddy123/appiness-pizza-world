@@ -1,18 +1,17 @@
 <template>
   <div class="home">
-    <PizzaHome :page="pageData"/>
+    <OrdersRecieved :page="pageData"/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import PizzaHome from '@/components/PizzaHome.vue'
+import OrdersRecieved from '@/components/OrdersRecieved.vue'
 import RawData from '../partials/orders.json'
-import '../assets/styles/index.scss'
 export default {
-  name: 'Home',
+  name: 'Orders',
   components: {
-    PizzaHome
+    OrdersRecieved
   },
   data () {
     const pageData = RawData

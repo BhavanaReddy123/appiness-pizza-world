@@ -1,0 +1,58 @@
+{
+    "key": "orders.recieved",
+    "name": "Pizza Orders",
+    "desc": null,
+    "response": {
+      "data": {
+        "key": "pizza_orders",
+        "name": "Appiness Pizza World",
+        "sub_title": "work hard, be nice, eat pizza",
+        "orders": [
+            {
+                "key":"1",
+                "name":"Vijil",
+                "items_ordered":["Pepperoni," , "chicken cheese combo,", "Pepsi"],
+                "num_of_items":"3",
+                "total_amount":"500",
+                "status": "Order Received"
+            },
+            {
+                "key":"2",
+                "name":"Kamal Venugopal",
+                "items_ordered":["Double Cheese Margherita,", "Garlic Breadsticks"],
+                "num_of_items":"2",
+                "total_amount":"480",
+                "status": "Ready to serve"
+            },
+            {
+                "key":"3",
+                "name":"Sunil P Thomas",
+                "items_ordered":["Stuffed Garlic Bread,", "Pepperoni,", "Pepsi,", "Veg Pasta Italiano White,", "Cheese Dip"],
+                "num_of_items":"5",
+                "total_amount":"900",
+                "status": "Order Received"
+            }, 
+            {
+                "key":"4",
+                "name":"Rigin",
+                "items_ordered":["chicken cheese combo"],
+                "num_of_items":"1",
+                "total_amount":"230",
+                "status": "Preparing"
+            },
+            {
+                "key":"5",
+                "name":"Visakh",
+                "items_ordered":["Lava Cake,","Taco Mexicana Veg,","Crinkle Fries,", "Burger Pizza- Premium Veg,", "Pepsi"],
+                "num_of_items":"5",
+                "total_amount":"890",
+                "status": "Ready to serve"
+            }
+
+        ]
+      },
+      "error": null,
+      "http_status_code": 200
+    }
+  }
+  
