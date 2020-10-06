@@ -29,6 +29,7 @@ export default {
         background-repeat: no-repeat;
         height: 800px;
         padding: 2rem;
+        background-size: cover;
         display: flex;
         justify-content: center;
         align-items: center;
